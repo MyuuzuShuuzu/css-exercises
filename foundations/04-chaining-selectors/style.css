@@ -1,0 +1,15 @@
+/* Properly chained class selectors for each rule. */
+
+/* Make the element with both the `avatar` and `proportioned` classes 300 pixels wide, then give it a height so that it retains its original square proportions (don't hardcode in a pixel value for the height!). */
+/* The 'proportioned' image retains its original square proportions. */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+/* Make the element with both the `avatar` and `distorted` classes 200 pixels wide, then make its height twice as big as its width (here you should hardcode in a pixel value). */
+/* The 'distorted' image ended up looking squished and distorted. */
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}

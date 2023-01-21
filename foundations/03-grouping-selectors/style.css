@@ -5,6 +5,7 @@
     font-family: 'Helvetica', 'Times New Roman', sans-serif;
 }
 
+/* Made separate styles for the rules unique to each element. */
 /* **The first element**: a black background and white text */
 .left {
     background-color: #000000;
